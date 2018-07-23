@@ -1,0 +1,26 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table andrey_catalog_'
+    - builder_table_create_andrey_catalog_.php
+1.0.3:
+    - 'Updated table andrey_catalog_'
+    - builder_table_update_andrey_catalog_.php
+1.0.4:
+    - 'Created table andrey_catalog_categorys_name'
+    - builder_table_create_andrey_catalog_categorys_name.php
+1.0.5:
+    - 'Created table andrey_catalog_catalog_categorys'
+    - builder_table_create_andrey_catalog_catalog_categorys.php
+1.0.6:
+    - 'Updated table andrey_catalog_'
+    - builder_table_update_andrey_catalog__2.php
+1.0.7:
+    - 'Updated table andrey_catalog_'
+    - builder_table_update_andrey_catalog__3.php
+1.0.8:
+    - 'Drop table andrey_catalog_categorys_name'
+    - builder_table_delete_andrey_catalog_categorys_name.php
+1.0.9:
+    - 'Drop table andrey_catalog_catalog_categorys'
+    - builder_table_delete_andrey_catalog_catalog_categorys.php

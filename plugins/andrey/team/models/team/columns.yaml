@@ -1,0 +1,6 @@
+columns:
+    name:
+        label: 'andrey.team::lang.plugin.name'
+        type: text
+        searchable: true
+        sortable: true

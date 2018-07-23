@@ -1,0 +1,75 @@
+<form data-request="contactform::onSend" class="contact-form" data-request-validate data-request-flash>
+    <label>Ваше Имя: </label>
+    <input type="text" name="name">
+    <span data-validate-for="name">Hey! How about inputing your name.</span>
+
+    <label>Ваш имейл: </label>
+    <input type="email" name="email">
+    <span data-validate-for="email"></span>
+
+    <label>Ваш имейл: </label>
+    <input type="tel" name="phone">
+    <span data-validate-for="phone"></span>
+
+    <label>Ваше сообщение: </label>
+    <textarea name="content"></textarea>
+
+    <button type="submit" data-attach-loading>Send</button>
+
+    <div class="alert alert-danger" data-validate-error>
+        <p data-message></p>
+    </div>
+
+    <div class="flash error">
+        Ooops. Something went wrong please check the requiered fields.
+    </div>
+
+    <div class="flash success">
+        Your message has been sent. Thank you.
+    </div>
+</form>
+
+
+
+<!--
+
+<form action="" class="nino-subscribeForm">
+    <div class="input-group input-group-lg">
+      <div id="scf-message-">
+        <input type="email" class="form-control" placeholder="Your Email" required>
+      </div>
+
+      <div id="scf-form-">
+
+      </div>
+
+        <input type="email" class="form-control" placeholder="Your Email" required>
+        <span class="input-group-btn">
+<button class="btn btn-success" type="submit">Отправить</button>
+</span>
+    </div>
+</form>
+
+
+
+ <form action="" class="nino-subscribeForm c-footer__form">
+   <div class="c-footer__formRow input-group">
+     <input type="text" class="form-control" placeholder="Имя" required>
+   </div>
+   <div class="c-footer__formRow input-group">
+     <input type="tel" class="form-control" placeholder="Телефон" required>
+   </div>
+   <div class="c-footer__formRow input-group">
+     <input type="email" class="form-control" placeholder="email" required>
+   </div>
+   <div class="c-footer__formRow input-group">
+     <textarea placeholder="Сообщение"></textarea>
+   </div>
+   <div class="c-footer__formRow">
+     <div class="input-group input-group-lg">
+       <span class="input-group-btn">
+          <button class="btn btn-success" type="submit">Отправить</button>
+       </span>
+     </div>
+   </div>
+</form> -->

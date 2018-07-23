@@ -1,0 +1,4 @@
+title: HowWeWork
+modelClass: Andrey\Howwework\Models\HowWeWork
+toolbar:
+    buttons: reorder_toolbar

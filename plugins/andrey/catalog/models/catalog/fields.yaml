@@ -1,0 +1,39 @@
+fields:
+    name:
+        label: 'Тип галереи'
+        span: full
+        type: text
+    description:
+        label: Описание
+        size: ''
+        span: full
+        type: richeditor
+    slug:
+        label: Href
+        span: left
+        preset:
+            field: name
+            type: slug
+        type: text
+    poster:
+        label: 'Фото галереи'
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        imageWidth: '100'
+        imageHeight: '100'
+        type: fileupload
+    gallery_one:
+        label: Галерея
+        mode: image
+        imageWidth: '80'
+        imageHeight: '80'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload

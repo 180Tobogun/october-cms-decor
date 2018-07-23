@@ -1,0 +1,11 @@
+plugin:
+    name: 'andrey.ourservices::lang.plugin.name'
+    description: 'andrey.ourservices::lang.plugin.description'
+    author: Andrey
+    icon: oc-icon-eye
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Наши сервисы'
+        url: andrey/ourservices/ourservices
+        icon: icon-life-ring

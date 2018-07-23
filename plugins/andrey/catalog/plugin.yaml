@@ -1,0 +1,11 @@
+plugin:
+    name: 'andrey.catalog::lang.plugin.name'
+    description: 'Каталоги фотографий'
+    author: Andrey
+    icon: oc-icon-anchor
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Каталог
+        url: andrey/catalog/gallerys
+        icon: icon-apple

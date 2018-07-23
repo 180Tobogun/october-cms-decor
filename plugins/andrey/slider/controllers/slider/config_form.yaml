@@ -1,0 +1,10 @@
+name: Slider
+form: $/andrey/slider/models/slider/fields.yaml
+modelClass: Andrey\Slider\Models\Slider
+defaultRedirect: andrey/slider/slider
+create:
+    redirect: 'andrey/slider/slider/update/:id'
+    redirectClose: andrey/slider/slider
+update:
+    redirect: andrey/slider/slider
+    redirectClose: andrey/slider/slider

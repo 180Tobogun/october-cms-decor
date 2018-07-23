@@ -1,0 +1,4 @@
+title: Gallerys
+modelClass: Andrey\Catalog\Models\Catalog
+toolbar:
+    buttons: reorder_toolbar

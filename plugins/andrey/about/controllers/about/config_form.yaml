@@ -1,0 +1,10 @@
+name: About
+form: $/andrey/about/models/about/fields.yaml
+modelClass: Andrey\About\Models\About
+defaultRedirect: andrey/about/about
+create:
+    redirect: 'andrey/about/about/update/:id'
+    redirectClose: andrey/about/about
+update:
+    redirect: andrey/about/about
+    redirectClose: andrey/about/about

@@ -1,0 +1,11 @@
+plugin:
+    name: 'andrey.services::lang.plugin.name'
+    description: 'Сервисы (в начале страницы)'
+    author: Andrey
+    icon: oc-icon-instagram
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Наши услуги'
+        url: andrey/services/services
+        icon: icon-instagram

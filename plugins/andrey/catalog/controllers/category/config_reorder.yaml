@@ -1,0 +1,4 @@
+title: Category
+modelClass: Andrey\Catalog\Models\Category
+toolbar:
+    buttons: reorder_toolbar

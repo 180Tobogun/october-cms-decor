@@ -1,0 +1,10 @@
+name: HowWeWork
+form: $/andrey/howwework/models/howwework/fields.yaml
+modelClass: Andrey\Howwework\Models\HowWeWork
+defaultRedirect: andrey/howwework/howwework
+create:
+    redirect: 'andrey/howwework/howwework/update/:id'
+    redirectClose: andrey/howwework/howwework
+update:
+    redirect: andrey/howwework/howwework
+    redirectClose: andrey/howwework/howwework

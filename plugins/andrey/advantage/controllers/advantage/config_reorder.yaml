@@ -1,0 +1,4 @@
+title: Advantage
+modelClass: Andrey\Advantage\Models\Advantage
+toolbar:
+    buttons: reorder_toolbar

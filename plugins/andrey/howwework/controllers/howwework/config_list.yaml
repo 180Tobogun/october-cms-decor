@@ -1,0 +1,12 @@
+list: $/andrey/howwework/models/howwework/columns.yaml
+modelClass: Andrey\Howwework\Models\HowWeWork
+title: HowWeWork
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'andrey/howwework/howwework/update/:id'

@@ -1,0 +1,10 @@
+name: Team
+form: $/andrey/team/models/team/fields.yaml
+modelClass: Andrey\Team\Models\Team
+defaultRedirect: andrey/team/team
+create:
+    redirect: 'andrey/team/team/update/:id'
+    redirectClose: andrey/team/team
+update:
+    redirect: andrey/team/team
+    redirectClose: andrey/team/team

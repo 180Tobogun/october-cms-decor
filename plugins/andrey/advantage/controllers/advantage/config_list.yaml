@@ -1,0 +1,12 @@
+list: $/andrey/advantage/models/advantage/columns.yaml
+modelClass: Andrey\Advantage\Models\Advantage
+title: Advantage
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'andrey/advantage/advantage/update/:id'

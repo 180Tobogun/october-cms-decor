@@ -1,0 +1,10 @@
+name: Services
+form: $/andrey/services/models/services/fields.yaml
+modelClass: Andrey\Services\Models\Services
+defaultRedirect: andrey/services/services
+create:
+    redirect: 'andrey/services/services/update/:id'
+    redirectClose: andrey/services/services
+update:
+    redirect: andrey/services/services
+    redirectClose: andrey/services/services

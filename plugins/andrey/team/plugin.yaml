@@ -1,0 +1,11 @@
+plugin:
+    name: 'andrey.team::lang.plugin.name'
+    description: Команда
+    author: Andrey
+    icon: oc-icon-bomb
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Команда
+        url: andrey/team/team
+        icon: icon-bomb

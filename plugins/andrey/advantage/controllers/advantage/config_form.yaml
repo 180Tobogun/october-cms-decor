@@ -1,0 +1,10 @@
+name: Advantage
+form: $/andrey/advantage/models/advantage/fields.yaml
+modelClass: Andrey\Advantage\Models\Advantage
+defaultRedirect: andrey/advantage/advantage
+create:
+    redirect: 'andrey/advantage/advantage/update/:id'
+    redirectClose: andrey/advantage/advantage
+update:
+    redirect: andrey/advantage/advantage
+    redirectClose: andrey/advantage/advantage

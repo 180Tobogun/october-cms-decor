@@ -1,0 +1,25 @@
+fields:
+    step:
+        label: 'Шаг №'
+        span: full
+        type: text
+    description:
+        label: Описание
+        size: ''
+        span: auto
+        type: richeditor
+    image:
+        label: 'Лого шага'
+        span: left
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        imageWidth: '80'
+        imageHeight: '80'
+        type: fileupload
+    pos:
+        label: Позиция
+        span: left
+        type: number

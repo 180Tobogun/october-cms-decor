@@ -1,0 +1,25 @@
+fields:
+    name:
+        label: Название
+        span: full
+        type: text
+    description:
+        label: Описание
+        size: ''
+        span: full
+        type: richeditor
+    image:
+        label: Фото
+        mode: image
+        imageWidth: '80'
+        imageHeight: '80'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    pos:
+        label: 'Позиция в сортировке'
+        span: left
+        type: number

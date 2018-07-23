@@ -1,0 +1,10 @@
+name: Category
+form: $/andrey/catalog/models/category/fields.yaml
+modelClass: Andrey\Catalog\Models\Category
+defaultRedirect: andrey/catalog/category
+create:
+    redirect: 'andrey/catalog/category/update/:id'
+    redirectClose: andrey/catalog/category
+update:
+    redirect: andrey/catalog/category
+    redirectClose: andrey/catalog/category

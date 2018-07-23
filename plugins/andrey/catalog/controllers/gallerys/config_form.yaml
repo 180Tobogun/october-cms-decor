@@ -1,0 +1,10 @@
+name: Gallerys
+form: $/andrey/catalog/models/catalog/fields.yaml
+modelClass: Andrey\Catalog\Models\Catalog
+defaultRedirect: andrey/catalog/gallerys
+create:
+    redirect: 'andrey/catalog/gallerys/update/:id'
+    redirectClose: andrey/catalog/gallerys
+update:
+    redirect: andrey/catalog/gallerys
+    redirectClose: andrey/catalog/gallerys

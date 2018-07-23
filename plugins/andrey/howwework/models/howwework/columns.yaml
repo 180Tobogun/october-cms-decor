@@ -1,0 +1,11 @@
+columns:
+    step:
+        label: Шаг
+        type: text
+        searchable: true
+        sortable: true
+    pos:
+        label: Позиция
+        type: number
+        searchable: true
+        sortable: true

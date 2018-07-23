@@ -1,0 +1,11 @@
+plugin:
+    name: 'andrey.howwework::lang.plugin.name'
+    description: 'Как мы работаем, наши шаги'
+    author: Andrey
+    icon: oc-icon-briefcase
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Наши шаги'
+        url: andrey/howwework/howwework
+        icon: icon-eye

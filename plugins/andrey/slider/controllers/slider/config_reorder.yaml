@@ -1,0 +1,4 @@
+title: Slider
+modelClass: Andrey\Slider\Models\Slider
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,11 @@
+plugin:
+    name: 'andrey.slider::lang.plugin.name'
+    description: Слайдер
+    author: Andrey
+    icon: oc-icon-photo
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Слайдер
+        url: andrey/slider/slider
+        icon: icon-photo

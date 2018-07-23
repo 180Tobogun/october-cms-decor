@@ -1,0 +1,11 @@
+plugin:
+    name: 'andrey.about::lang.plugin.name'
+    description: 'andrey.about::lang.plugin.description'
+    author: Andrey
+    icon: oc-icon-language
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Про нас'
+        url: andrey/about/about
+        icon: icon-life-ring

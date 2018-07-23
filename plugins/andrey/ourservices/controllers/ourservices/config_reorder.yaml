@@ -1,0 +1,4 @@
+title: Ourservices
+modelClass: Andrey\Ourservices\Models\Ourservices
+toolbar:
+    buttons: reorder_toolbar

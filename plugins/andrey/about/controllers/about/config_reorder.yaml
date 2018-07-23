@@ -1,0 +1,4 @@
+title: About
+modelClass: Andrey\About\Models\About
+toolbar:
+    buttons: reorder_toolbar

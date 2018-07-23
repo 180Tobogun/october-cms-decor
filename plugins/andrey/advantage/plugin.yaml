@@ -1,0 +1,11 @@
+plugin:
+    name: 'andrey.advantage::lang.plugin.name'
+    description: 'Серый блок наши преимущества'
+    author: Andrey
+    icon: oc-icon-check
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Преимущества
+        url: andrey/advantage/advantage
+        icon: icon-coffee
