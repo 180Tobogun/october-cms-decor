@@ -1,0 +1,6 @@
+plugin:
+    name: 'contactform'
+    description: 'Page contact'
+    author: Andrey
+    icon: oc-icon-pencil-square-o
+    homepage: ''
